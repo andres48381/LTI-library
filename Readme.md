@@ -1,4 +1,12 @@
-# LTI systems
+# LTI-Library
+
+Model is a class that simulates a LTI system, first or second order. Is useful to simulate real systems like temperatures, actuators, filters...
+
+# How to build and install it
+
+Just include the .h and .cpp files in your project. The repository includes an example with cmake, and a simple code to wath the simulation.
+
+# What is a LTI systems?
 
 A system that possesses two basic properties namely linearity and timeinvariant is known as linear time-invariant system or LTI system.
 
@@ -21,7 +29,7 @@ As an example, let us look at the block diagram of the control system shown belo
 
 The transfer function (input-output relationship) for this control system is defined as:
 
-![alt text](https://www.electrical4u.com/wp-content/ql-cache/quicklatex.com-be548164d61b724db65773460fce5a11_l3.png?ezimgfmt=rs:132x44/rscb38/ng:webp/ngcb38)
+[ C(s) / R (s) ] = [K / (T*s+1)] 
 
 Where:
 
@@ -29,7 +37,7 @@ Where:
 * T is the time constant of the system (the time constant is a measure of how quickly a first-order system responds to a unit step input)
 Remember that the order of a differential equation is the order of the highest order derivative present in the equation. We evaluate this with respect to s.
 
-h2. First Order Control System Transfer Function
+## First Order Control System Transfer Function
 
 A transfer function represents the relationship between the output signal of a control system and the input signal, for all possible input values.
 
