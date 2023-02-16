@@ -4,7 +4,7 @@ Model is a class that simulates a LTI system, first or second order. Is useful t
 
 # How to build and install it
 
-Just include the .h and .cpp files in your project. The repository includes an example with cmake, and a simple code to wath the simulation.
+Just include the .h and .cpp files in your project. The repository includes an example with cmake, and a simple code to watch the simulation.
 
 # What is a LTI systems?
 
